@@ -1,7 +1,7 @@
 #home {
     height: 100vh;
     min-height: 500px;
-    background: url(../Img/Tienda.jpg);
+    background: url(../Img/callejeros2.jpeg);
     position: relative;
 }
 
@@ -22,23 +22,6 @@
     margin-bottom: 60px;
 }
 
-#home .content h1::before {
-    content: "Callejeros";
-    animation: textanim 10s linear infinite;
-}
-
-@keyframes textanim {
-    25% {
-        content: "Arte Callejero";
-    }
-    50% {
-        content: "100% Mexicanos";
-    }
-    75% {
-        content: "Simplemente Calljeros";
-    }
-}
-
 .sm a {
     color: white;
     font-size: 22px;
@@ -57,21 +40,4 @@ h3 {
 
 #home .buttons {
     margin-top: 60px;
-}
-
-#home .buttons a {
-    display: inline-block;
-    margin: 10px 30px;
-    color: darkcyan;
-    font-size: 20px;
-    font-weight: 500;
-    border: 1px solid darkcyan;
-    padding: 12px 28px;
-    border-radius: 7px;
-    transition: .2s linear;
-}
-
-#home .buttons a:hover {
-    background-color: #48dbfb;
-    color: white;
 }

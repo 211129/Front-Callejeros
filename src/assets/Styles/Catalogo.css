@@ -1,0 +1,53 @@
+.container-body {
+    height: 100vh;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 5em;
+}
+
+.cards {
+    height: 500px;
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgb(204, 28, 28);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+}
+
+.box-products {
+    background-color: rgb(15, 78, 78);
+    height: 400px;
+    width: 1300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
