@@ -3,19 +3,15 @@ import Footer from "../Components/Footer"
 
 function Register({children}){
 
-    return(
-   
-        
-      <>
+  return(  
+    <>
     
      <Reg></Reg>
-     {children}
+       {children}
      <Footer></Footer>
      
-      </>
-
-    
-    )
+    </>
+  )
 }
 
 export default Register;

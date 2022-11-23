@@ -1,7 +1,7 @@
 import '../assets/Styles/Catalogo.css'
 
 
-function Catalogo(props) {
+function CardCatalogo(props) {
     return (
         
             <div className="card">
@@ -10,10 +10,8 @@ function Catalogo(props) {
                 <h1 className="price">{props.price}</h1>
                 <button type="button">Comprar</button>
             </div>
-        
     );
 }
 
 
-
-export default Catalogo;
+export default CardCatalogo;

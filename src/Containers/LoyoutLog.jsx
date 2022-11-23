@@ -4,13 +4,13 @@ import Navbar from "../Components/Navbar";
 
 function LoyoutLog({children}){
 
-    return(
-        <>
-        <Navbar></Navbar>
+  return(
+    <>
+      <Navbar></Navbar>
         {children}
       <SectionLog></SectionLog>
-        </>
-    )
+    </>
+  )
 }
 
 export default LoyoutLog;

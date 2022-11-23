@@ -11,33 +11,3 @@
     justify-content: center;
     height: 100%;
 }
-
-#home .content {
-    color: darkcyan;
-    width: 100%;
-}
-
-#home .content h1 {
-    font-size: 90px;
-    margin-bottom: 60px;
-}
-
-.sm a {
-    color: white;
-    font-size: 22px;
-    margin: 0 10px;
-    transition: .2s linear;
-}
-
-.sm a:hover {
-    color: #48dbfb;
-}
-
-h3 {
-    font-size: 40px;
-    color: black;
-}
-
-#home .buttons {
-    margin-top: 60px;
-}

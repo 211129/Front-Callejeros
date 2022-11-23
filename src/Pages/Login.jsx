@@ -4,18 +4,13 @@ import LoyoutLog from "../Containers/LoyoutLog";
 
 function Login({children}){
 
-    return(
-
-        <>
-        
+  return(
+    <>
       <LoyoutLog></LoyoutLog>
         {children}
-        z<Footer></Footer>
-      
-       
-        
-        </>
-    )
+      <Footer></Footer> 
+    </>
+  )
 }
 
 export default Login;

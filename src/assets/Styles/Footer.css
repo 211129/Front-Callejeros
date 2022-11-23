@@ -40,7 +40,6 @@ footer {
 .footer-distributed h3 {
     color: #9c9b9b;
     font: normal 36px 'Cookie', cursive;
-    margin: 0;
 }
 
 .footer-distributed h3 span {
@@ -66,7 +65,6 @@ footer {
     color: #8f9296;
     font-size: 14px;
     font-weight: normal;
-    margin: 0;
 }
 
 
@@ -98,7 +96,6 @@ footer {
     display: inline-block;
     color: #979090;
     vertical-align: middle;
-    margin: 0;
 }
 
 .footer-distributed .footer-center p span {

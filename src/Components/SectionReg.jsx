@@ -11,39 +11,39 @@ function SectionReg(){
             <div className="content">
             
               
-        <div class="container">
-        <div class="title">Registration</div>
-        <div class="content">
+        <div className="container">
+        <div className="title">Registro</div>
+        <div className="content">
           <form action="#">
-            <div class="user-details">
-              <div class="input-box">
-                <span class="details">Full Name</span>
-                <input type="text" placeholder="Enter your name" required/>
+            <div className="user-details">
+              <div className="input-box">
+                <span className="details">Nombre Completo</span>
+                <input type="text" placeholder="Ingrese nombre completo" required/>
               </div>
-              <div class="input-box">
-                <span class="details">Username</span>
-                <input type="text" placeholder="Enter your username" required/>
+              <div className="input-box">
+                <span className="details">Nombre de Usuario</span>
+                <input type="text" placeholder="Ingrese usuario" required/>
               </div>
-              <div class="input-box">
-                <span class="details">Email</span>
-                <input type="text" placeholder="Enter your email" required/>
+              <div className="input-box">
+                <span className="details">Email</span>
+                <input type="text" placeholder="Ingrese email" required/>
               </div>
-              <div class="input-box">
-                <span class="details">Phone Number</span>
-                <input type="text" placeholder="Enter your number" required/>
+              <div className="input-box">
+                <span className="details"> Numero de telefono</span>
+                <input type="text" placeholder="Ingrese numero" required/>
               </div>
-              <div class="input-box">
-                <span class="details">Password</span>
-                <input type="text" placeholder="Enter your password" required/>
+              <div className="input-box">
+                <span className="details">Contraseña</span>
+                <input type="text" placeholder="Ingrese contraseña" required/>
               </div>
-              <div class="input-box">
-                <span class="details">Confirm Password</span>
-                <input type="text" placeholder="Confirm your password" required/>
+              <div className="input-box">
+                <span className="details">Confirmar contraseña</span>
+                <input type="text" placeholder="Confirme contraseña" required/>
               </div>
             </div>
          
-            <div class="button">
-              <input type="submit" value="Register"/>
+            <div className="button">
+              <input type="submit" value="Registrarme"/>
             </div>
           </form>
         </div>

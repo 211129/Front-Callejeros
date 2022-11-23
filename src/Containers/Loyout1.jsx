@@ -7,14 +7,11 @@ function Loyout({children}){
 
 
     return(
-
         <>
-
-        <Header></Header>
-        {children}
-       <Section></Section>
+         <Header></Header>
+           {children}
+         <Section></Section>
         </>
-
     )
 }
 

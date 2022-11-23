@@ -3,17 +3,15 @@ import Footer from "../Components/Footer"
 
 function Home({children}){
 
-    return(
+  return(
   
-  <>
-  
-   <Loyout1></Loyout1>
-   {children}
-   <Footer></Footer>
-  
-  </>
+    <>
+      <Loyout1></Loyout1>
+       {children}
+      <Footer></Footer>
+    </>
  
-    )
+  )
     
 }
 

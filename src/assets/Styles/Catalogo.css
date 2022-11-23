@@ -7,14 +7,13 @@
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
-    position: relative;
+    justify-content: space-between;
     top: 5em;
 }
 
 .cards {
-    height: 500px;
-    width: 1400px;
+    height: 300px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -23,14 +22,13 @@
 
 .card {
     width: 100%;
-    height: 400px;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background-color: rgb(204, 28, 28);
+    background: rgb(8, 43, 44);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
     cursor: default;
-    transition: all 400ms ease;
 }
 
 .card:hover {
@@ -39,15 +37,8 @@
 }
 
 .card img {
-    width: 100%;
-    height: 250px;
-}
-
-.box-products {
-    background-color: rgb(15, 78, 78);
-    height: 400px;
-    width: 1300px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: block;
 }

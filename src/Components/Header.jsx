@@ -12,13 +12,13 @@ return(
        <nav className="navbar">
          <div className="inner-width">
             <a href="/" className="logo"></a>
-            <p >Callejeros stylo</p>
+            <p >Callejeros</p>
             <br></br>
             
            
             
              <button className="menu-toggler">
- <span></span>
+ 
                 <span></span>
                 <span></span>
              </button>
@@ -26,7 +26,7 @@ return(
              <div className="navbar-menu">
                 <Link to="/">Home</Link>
                 <Link to="/login">Login</Link> 
-                <Link to="/">Catalogo</Link>
+                <Link to="/plantilla">Catalogo</Link>
              
              </div>
              
