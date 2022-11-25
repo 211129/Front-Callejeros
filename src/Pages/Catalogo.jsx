@@ -1,10 +1,10 @@
 import CardCatalogo from '../Components/CardCatalogo';
 import trip1 from '../assets/Img/trip1.jpeg';
-import bob1 from'../assets/img/bob1.jpeg';
-import bad1 from'../assets/img/bad1.jpeg';
+import bob1 from'../assets/Img/bob1.jpeg';
+import bad1 from'../assets/Img/bad1.jpeg';
 import Marvel1 from '../assets/Img/Marvel1.jpeg';
 import sim from '../assets/Img/sim.jpeg'
-import '../assets/styles/Catalogo.css';
+import '../assets/Styles/Catalogo.css';
 import Plantilla from './Plantilla';
 
 
