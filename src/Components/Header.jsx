@@ -1,5 +1,4 @@
 import '../assets/Styles/header.css';
-import Cart from './Cart';
 
 import {  Outlet, Link } from "react-router-dom";
 
@@ -28,6 +27,7 @@ return(
                 <Link to="/">Home</Link>
                 <Link to="/login">Login</Link> 
                 <Link to="/plantilla">Catalogo</Link>
+                <Link to="/Cartr">Pedido</Link>
              
              </div>
              
