@@ -1,4 +1,5 @@
 import '../assets/Styles/header.css';
+import Cart from './Cart';
 
 import { Outlet, Link } from "react-router-dom";
 
