@@ -5,9 +5,14 @@
     font-family: "Ubuntu", sans-serif;
 }
 
+.container--header {
+    width: 100%;
+    border: 3px red solid;
+}
+
 .navbar {
     opacity: 97%;
-    position: fixed;
+    position: relative;
     background-color: rgb(0, 0, 0);
     width: 100%;
     padding: 20px 0;
