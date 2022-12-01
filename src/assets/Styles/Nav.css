@@ -7,8 +7,9 @@
 
 .navbar {
     opacity: 97%;
-    position: fixed;
+    position: relative;
     background-color: rgb(218, 223, 230);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     padding: 20px 0;
     top: 0;
