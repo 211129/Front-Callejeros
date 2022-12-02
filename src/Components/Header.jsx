@@ -1,5 +1,5 @@
 import '../assets/Styles/header.css';
-import Cart from './Cart';
+import Cart from '../Pages/Cart';
 
 import { Outlet, Link } from "react-router-dom";
 
@@ -25,6 +25,7 @@ function Header() {
                   <Link to="/login">Login</Link>
                   <Link to="/plantilla">Catalogo</Link>
                   <Link to="/landing">Preventa</Link>
+                  <Link to="/cart">Comprar</Link>
 
                </div>
 

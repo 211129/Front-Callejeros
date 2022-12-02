@@ -3,7 +3,6 @@ import trip1 from '../assets/Img/trip1.jpeg';
 import bob1 from'../assets/Img/bob1.jpeg';
 import bad1 from'../assets/Img/bad1.jpeg';
 import Marvel1 from '../assets/Img/Marvel1.jpeg';
-<<<<<<< HEAD
 import sim from '../assets/Img/sim.jpeg';
 import champion from '../assets/Img/champion.jpeg';
 import hasbulla from '../assets/Img/hasbulla.jpeg';
@@ -12,11 +11,7 @@ import amazing from  '../assets/img/amazing.jpeg';
 import sushine from  '../assets/Img/sushine.jpeg';
 import Theflow from '../assets/img/Theflow.jpeg';
 import '../assets/styles/Catalogo.css';
-=======
-import sim from '../assets/Img/sim.jpeg'
-import '../assets/Styles/Catalogo.css';
->>>>>>> 49b8238953a59339be5a822f5d3c51fbb74a1990
-import Plantilla from './Plantilla';
+import Plantilla from '../Pages/Plantilla'
 
 
 

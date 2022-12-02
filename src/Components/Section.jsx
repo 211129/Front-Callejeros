@@ -1,9 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../assets/Styles/Section.css'
-import Cart from './Cart';
-
-
-
+import '../assets/Styles/Section.css';
 
 
 function Section(){
@@ -17,7 +13,6 @@ function Section(){
          <div className="inner-width">
             <div className="content">
                 <div className='buttons'>
-                 <Cart></Cart>
                  <Link to="#" > </Link>
                  <Link to="#"></Link>
                 </div>

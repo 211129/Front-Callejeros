@@ -1,8 +1,8 @@
 import { useReducer } from "react";
 import { TYPES } from "../actions/CartController";
 import { CartInitState, CartReducer } from "../actions/CartReducer";
-import CartItem from "./CartItem";
-import ProductItem from "./CartProduct";
+import CartItem from "../Components/CartItem";
+import ProductItem from "../Components/CartProduct";
 
 const Cart = () =>{
 
@@ -48,4 +48,4 @@ const Cart = () =>{
     );
   };
 
-export default Cart
+export default Cart;
