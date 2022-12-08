@@ -1,7 +1,7 @@
 import Header from "../Components/Header";
 
 
-function LoyoutCata({children}){
+function LoyoutCarrito({children}){
 
     return(
       <>
@@ -12,4 +12,4 @@ function LoyoutCata({children}){
     )
 }
 
-export default LoyoutCata;
+export default LoyoutCarrito;

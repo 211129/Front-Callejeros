@@ -22,67 +22,59 @@ function Catalogo() {
             id:1,
             img: trip1,
             name: "Buen Viaje",
-            price: "$130",
         },
         {
             id:2,
             img:bad1,
             name: "Bad Bunny",
-            price: "$130",
         },
         {
             id: 3,
             img:bob1,
             name: "Bob esponja",
-            price: "$140",
         },
         {
             id:4,
             img:Marvel1,
             name: "SpiderMex",
-            price: "$140",
         },
         {
             id: 5,
             img:sim,
             name: "Rugrats",
-            price: "$140",
         },
         {
             id: 6,
             img:champion,
             name: "Boinas",
-            price: "$100",
         },
         {
             id: 7,
             img:hasbulla,
             name: "Hasbulla",
-            price: "$120",
         },
         {
             id: 8,
             img:jungle,
             name: "Jungle",
-            price: "$140",
         },
         {
             id: 9,
             img:amazing,
             name: "amazing",
-            price: "$140",
+            
         },
         {
             id: 10,
             img:sushine,
             name: "sushine",
-            price: "$140",
+           
         },
         {
             id: 11,
             img:Theflow,
             name: "Theflow",
-            price: "$140",
+            
         },
       
     ];
@@ -100,17 +92,12 @@ function Catalogo() {
                                         key={product.id}
                                         img={product.img}
                                         name={product.name}
-                                        price={product.price}
-                                    />
-                            
+                                    />                         
                                 )
                             })}
                         
                     </div>
-                
             </Plantilla>
-
-
         </div>
         
     );

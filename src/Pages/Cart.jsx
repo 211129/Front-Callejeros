@@ -3,6 +3,7 @@ import { TYPES } from "../actions/CartController";
 import { CartInitState, CartReducer } from "../actions/CartReducer";
 import CartItem from "../Components/CartItem";
 import ProductItem from "../Components/CartProduct";
+import Carrito from "../Pages/Carrito";
 
 const Cart = () =>{
 

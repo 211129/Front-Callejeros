@@ -8,7 +8,6 @@ function CardCatalogo(props) {
                 <img src={props.img} alt="" />
                 <h1 className="name">{props.name}</h1>
                 <h1 className="price">{props.price}</h1>
-                <button type="button">Añadir al carrito</button>
             </div>
     );
 }
