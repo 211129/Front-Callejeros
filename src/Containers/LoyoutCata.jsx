@@ -1,4 +1,4 @@
-import  CardCatalogo from "../Components/CardCatalogo"
+import  CardCatalogo from "../Components/CardCatalogo";
 import Header from "../Components/Header";
 
 
@@ -8,7 +8,7 @@ function LoyoutCata({children}){
       <>
         <Header></Header>
           {children}
-        {/* <CardCatalogo></CardCatalogo> */}
+        <CardCatalogo></CardCatalogo> 
        </>
     )
 }
