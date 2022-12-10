@@ -1,28 +1,17 @@
 import CardCatalogo from '../Components/CardCatalogo';
 import trip1 from '../assets/Img/trip1.jpeg';
-<<<<<<< HEAD
 import bob1 from'../assets/Img/bob1.jpeg';
 import bad1 from'../assets/Img/bad1.jpeg';
 import Marvel1 from '../assets/Img/Marvel1.jpeg';
 import sim from '../assets/Img/sim.jpeg';
-=======
-import bob1 from'../assets/Img/bob1.png';
-import bad1 from'../assets/Img/bad1.png';
-import Marvel1 from '../assets/Img/Marvel1.png';
-import sin from '../assets/Img/sin.png';
->>>>>>> 2eee544da4b70a6d6f43dad295f73a12312c20e3
 import champion from '../assets/Img/champion.jpeg';
 import hasbulla from '../assets/Img/hasbulla.jpeg';
-import jungle from  '../assets/Img/jungle.png';
+import jungle from  '../assets/Img/jungle.jpeg';
 import amazing from  '../assets/Img/amazing.jpeg';
-import sushine from  '../assets/Img/sushine.png';
-import Theflow from '../assets/Img/Theflow.png';
+import sushine from  '../assets/Img/sushine.jpeg';
+import Theflow from '../assets/Img/Theflow.jpeg';
 import '../assets/styles/Catalogo.css';
-<<<<<<< HEAD
 import Plantilla from '../Pages/Plantilla'
-=======
-import Plantilla from '../Pages/Plantilla';
->>>>>>> 2eee544da4b70a6d6f43dad295f73a12312c20e3
 
 
 
@@ -51,7 +40,7 @@ function Catalogo() {
         },
         {
             id: 5,
-            img:sin,
+            img:sim,
             name: "Rugrats",
         },
         {
