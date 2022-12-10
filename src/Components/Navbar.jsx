@@ -16,7 +16,7 @@ function Navbar(){
             
              
               <button className="menu-toggler">
-  <span></span>
+                 <span></span>
                  <span></span>
                  <span></span>
               </button>

@@ -1,10 +1,3 @@
-import bob1 from'../assets/Img/bob1.png';
-import bad1 from'../assets/Img/bad1.png';
-import Marvel1 from '../assets/Img/Marvel1.png';
-import sin from '../assets/Img/sin.png';
-import CardCatalogo from '../Components/CardCatalogo';
-import '../assets/Img/Marvel1.png';
-
 import '../assets/Styles/Catalogo.css';
 
 const ProductItem = ({ data, addToCart }) => {
