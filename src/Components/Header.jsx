@@ -11,7 +11,7 @@ return(
       <nav className="navbar">
          <div className="inner-width">
             <a href="/" className="logo"></a>
-            <p >Callejeros</p>
+            <h1>Callejeros</h1>
             <br></br>
              <button className="menu-toggler"></button>
 

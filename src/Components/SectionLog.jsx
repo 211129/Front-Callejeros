@@ -1,11 +1,32 @@
 
 import { Link } from 'react-router-dom';
+import { login } from '../api/services/auth';
 import '../assets/Styles/Login.css'
 
 import '../assets/Styles/Section.css'
 
 
 function SectionLog(){
+
+   async function handleSubmit(e) {
+      e.preventDefault();
+
+      const email = "afd"
+      const password = "123"
+
+      const response = await login(email, password);
+
+      if (response.status == 201){
+         console.log(response.data.data.accessToken)
+
+         const token = "213"
+
+         localStorage.setItem("token", token)
+      } else {
+
+      }
+   }
+
     return(
 
      <div>
@@ -45,7 +66,7 @@ function SectionLog(){
               <span className='form_line'></span>
              </div>
 
-             <input type="submit" className='form_submit' value="Entrar"/>
+             <input onSubmit={handleSubmit} type="submit" className='form_submit' value="Entrar"/>
 
           </div>
         </form>
