@@ -4,6 +4,21 @@ import { CartInitState, CartReducer } from "../actions/CartReducer";
 import CartItem from "../Components/CartItem";
 import ProductItem from "../Components/CartProduct";
 
+import CardCatalogo from '../Components/CardCatalogo';
+import trip1 from '../assets/Img/trip1.jpeg';
+import bob1 from'../assets/Img/bob1.png';
+import bad1 from'../assets/Img/bad1.png';
+import Marvel1 from '../assets/Img/Marvel1.png';
+import sin from '../assets/Img/sin.png';
+import champion from '../assets/Img/champion.jpeg';
+import hasbulla from '../assets/Img/hasbulla.jpeg';
+import jungle from  '../assets/Img/jungle.png';
+import amazing from  '../assets/Img/amazing.jpeg';
+import sushine from  '../assets/Img/sushine.png';
+import Theflow from '../assets/Img/Theflow.png';
+import '../assets/styles/Catalogo.css';
+import Plantilla from '../Pages/Plantilla';
+
 const Cart = () =>{
 
     const [state, dispatch] = useReducer(CartReducer, CartInitState);
