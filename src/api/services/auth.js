@@ -1,8 +1,8 @@
-import { axiosInstanceNormal } from "../axios";
+import API from "../api";
 
 export async function login(email, password) {
     try {
-        const response = await axiosInstanceNormal.post('/auth/token', {
+        const response = await API.post('/auth/token', {
             email,
             password,
         });
@@ -11,3 +11,4 @@ export async function login(email, password) {
         return error.response;
     }
 }
+

@@ -1,5 +1,5 @@
 import Navbar from "../Components/Navbar"
-import SectionReg from "../Components/SectionReg"
+import Auth from "../Components/SectionReg"
 
 
 function Reg({children}){
@@ -9,7 +9,7 @@ function Reg({children}){
        <Navbar></Navbar>
         {children}
      
-      <SectionReg></SectionReg>
+      <Auth></Auth>
         </>
 
     )
