@@ -5,12 +5,12 @@ import bad1 from'../assets/Img/bad1.jpeg';
 import Marvel1 from '../assets/Img/Marvel1.jpeg';
 import sim from '../assets/Img/sim.jpeg';
 import champion from '../assets/Img/champion.jpeg';
-import hasbulla from '../assets/Img/hasbulla.jpeg';
-import jungle from  '../assets/Img/jungle.jpeg';
+import hasbulla from '../assets/Img/Hasbulla.jpeg';
+import jungle from  '../assets/Img/jungle.png';
 import amazing from  '../assets/Img/amazing.jpeg';
 import sushine from  '../assets/Img/sushine.jpeg';
 import Theflow from '../assets/Img/Theflow.jpeg';
-import '../assets/styles/Catalogo.css';
+import '../assets/Styles/Catalogo.css';
 import Plantilla from '../Pages/Plantilla'
 
 

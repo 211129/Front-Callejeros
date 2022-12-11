@@ -11,12 +11,12 @@ import bad1 from'../assets/Img/bad1.png';
 import Marvel1 from '../assets/Img/Marvel1.png';
 import sin from '../assets/Img/sin.png';
 import champion from '../assets/Img/champion.jpeg';
-import hasbulla from '../assets/Img/hasbulla.jpeg';
+import hasbulla from '../assets/Img/Hasbulla.jpeg';
 import jungle from  '../assets/Img/jungle.png';
 import amazing from  '../assets/Img/amazing.jpeg';
 import sushine from  '../assets/Img/sushine.png';
 import Theflow from '../assets/Img/Theflow.png';
-import '../assets/styles/Catalogo.css';
+import '../assets/Styles/Catalogo.css';
 import Plantilla from '../Pages/Plantilla';
 
 const Cart = () =>{
