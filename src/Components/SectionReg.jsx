@@ -42,7 +42,7 @@ export default class Auth extends React.Component {
     const response = await API.post(`user`, user)
     if(response){
       alert("Usuario registrado con exito")
-      window.location.replace('/login');
+      window.location.replace("/login");
     }
 
   }

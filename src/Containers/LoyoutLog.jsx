@@ -1,4 +1,4 @@
-import  SectionLog from "../Components/SectionLog"
+import  Login from "../Components/SectionLog"
 import Navbar from "../Components/Navbar";
 
 
@@ -8,7 +8,7 @@ function LoyoutLog({children}){
     <>
       <Navbar></Navbar>
         {children}
-      <SectionLog></SectionLog>
+      <Login></Login>
     </>
   )
 }
