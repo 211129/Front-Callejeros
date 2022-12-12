@@ -2,7 +2,7 @@ import Home from "./Pages/Home";
 import Register from "./Pages/Register";
 import Login from "./Pages/Login";
 import Cart from "./Pages/Cart";
-
+import './Index.css'
 import Admin from "./Pages/admin/Admin";
 import AdminUserList from "./Pages/admin/AdminUsersList";
 import AdminProductList from "./Pages/admin/AdminProductList";
