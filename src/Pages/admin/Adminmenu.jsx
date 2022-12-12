@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css"
 
 
@@ -33,7 +34,9 @@ function Adminmenu() {
               <p className="card-text">
                 Visualise usuarios registrados en el sistema.
               </p>
-              <button type="button" className="btn btn-outline-primary btn-block" onClick={users}>Vamos</button>
+              <button type="button" className="btn btn-outline-primary btn-block">
+                <Link to="/admin-ulist" className='form_link'><a href="">Vamos</a></Link>
+              </button>
             </div>
           </div>
         </div>
