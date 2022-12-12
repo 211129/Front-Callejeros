@@ -23,7 +23,9 @@ function Adminmenu() {
               <p className="card-text">
                 Visualise y registre nuevos productos.
               </p>
-              <button type="button" className=" btn btn-outline-success btn-block" onClick={products}>Vamos</button>
+              <button type="button" className=" btn btn-outline-success btn-block">
+                <Link to="/admin-plist" className='form_link'><a href="">Vamos</a></Link>
+              </button>
             </div>
           </div>
         </div>

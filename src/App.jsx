@@ -5,6 +5,7 @@ import Cart from "./Pages/Cart";
 
 import Admin from "./Pages/admin/Admin";
 import AdminUserList from "./Pages/admin/AdminUsersList";
+import AdminProductList from "./Pages/admin/AdminProductList";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Catalogo from "./Pages/Catalogo";
@@ -25,6 +26,7 @@ function App() {
        
        <Route path="/admin" element={<Admin/>}/>
        <Route path="/admin-ulist" element={<AdminUserList/>}></Route>
+       <Route path="/admin-plist" element={<AdminProductList/>}></Route>
       </Routes>
     </BrowserRouter>
    
