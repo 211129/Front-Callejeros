@@ -38,8 +38,10 @@ export default class Login extends React.Component {
       if(response){
         alert("Sesion iniciada")
         let UAT = response.data.data.accessToken 
-        localStorage.setItem("USER_ACCESS_TOKEN", UAT)
+        localStorage.setItem("USER_ACCESS_TOKEN", JSON.stringify(UAT))
         window.location.replace('/plantilla');
+      } else{
+         alert("¡Usuario o contraseña incorrectos!")
       }
   
    }

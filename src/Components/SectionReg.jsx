@@ -43,6 +43,8 @@ export default class Auth extends React.Component {
     if(response){
       alert("Usuario registrado con exito")
       window.location.replace("/login");
+    }else{
+      alert("Ocurrio un error al registrarse")
     }
 
   }
